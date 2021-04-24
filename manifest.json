@@ -1,0 +1,21 @@
+{
+  "manifest_version" : 2,
+  "name": "whatsapp link",
+  "version": "1.0",
+  "description": "get fast link for whatsapp",
+  "icons":{
+    "128": "assets/icon128.png",
+    "48": "assets/icon48.png"
+  },
+  "browser_action": {
+    "default_icon": "assets/icon48.png",
+    "default_popup": "popup/popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "contextMenus"
+  ]
+}
